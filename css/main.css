@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #595959;
+  background-color: #1f53a1;
+  padding: 40px 39px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #595959;
+}
+.resume {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.tech-skills > ul > li,
+.contact > ul > li,
+.soft-skills > ul > li {
+  list-style-type: none;
+}
+
+.sidebar {
+  width: 370px;
+  background-color: #1e2939;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+.my-photo {
+  width: 370px;
+  height: 354px;
+  background: url('../img/photo.jpg') 0 0 / cover no-repeat;
+}
+.photo-img {
+  width: 370px;
+  height: 354px;
+}
+.info-block {
+  margin-left: 40px;
+}
+.title {
+  margin-top: 55px;
+  margin-bottom: 7px;
+}
+.title > h2 {
+  color: #ffffff;
+}
+.contact__list {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.contact__list,
+.tech-skills__list,
+.soft-skills__list {
+  margin-top: 9px;
+}
+.contact__nomber {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  color: #626975;
+}
+.tech-skills__list::before,
+.soft-skills__list::before {
+  color: #ff6b08;
+  content: '• ';
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+/*  main content */
+.content {
+  margin: 108px 70px 50px 90px;
+}
+.content__my-content > h1 {
+  margin: 24px 0;
+}
+
+.project > ol {
+  color: #000000;
+  margin-left: 16px;
+}
+.color-dot,
+.content__my-content > p {
+  color: #595959;
+}
+
+/* project */
+.project > h3 {
+  margin: 64px 0 12px;
+}
+
+/* Experience - education */
+.Experience > h3 {
+  margin: 52px 0 18px;
+}
+.Experience__company-name {
+  margin-bottom: 14px;
+}
+.education__university,
+.Experience__company-name > span {
+  color: #ff6b08;
+}
+.Experience__list {
+  color: #595959;
+  margin: 14px 0 24px;
+}
+.education__years,
+.Experience__working-hours {
+  color: #a8a8a8;
+}
+.education__years > span,
+.Experience__working-hours > span {
+  color: #000;
+
+  margin: 0 8px;
+}
+.Experience__working-hours > span {
+  font-size: 25px;
+}
+.education {
+  margin: 55px 0 21px;
+}
+.education__university {
+  margin: 21px 0 15px;
+}
+.education > ul > li {
+  /* list-style-type: none; */
+}
+.education__specialty {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
