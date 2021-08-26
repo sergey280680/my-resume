@@ -13,7 +13,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
 }
 p,
@@ -22,7 +22,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 a {
   color: #595959;
@@ -48,7 +48,7 @@ a {
 .my-photo {
   width: 370px;
   height: 354px;
-  background: url('../img/photo.jpg') 0 0 / cover no-repeat;
+  background: url("../img/my_photo.jpg") 0 0 / cover no-repeat;
 }
 .photo-img {
   width: 370px;
@@ -83,9 +83,13 @@ a {
 .tech-skills__list::before,
 .soft-skills__list::before {
   color: #ff6b08;
-  content: '• ';
+  content: "• ";
   padding-right: 10px;
   font-weight: 700;
+}
+.tech-skills__list--process {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 /*  main content */
@@ -111,32 +115,42 @@ a {
 }
 
 /* Experience - education */
-.Experience > h3 {
+.experience > h3 {
   margin: 52px 0 18px;
 }
-.Experience__company-name {
+/* .experience__company-name {
   margin-bottom: 14px;
-}
+} */
 .education__university,
-.Experience__company-name > span {
+.experience__company-name > span {
   color: #ff6b08;
 }
-.Experience__list {
+.experience__list {
   color: #595959;
-  margin: 14px 0 24px;
+  margin: 4px 0 24px;
 }
 .education__years,
-.Experience__working-hours {
+.experience__working-hours {
   color: #a8a8a8;
 }
+.experience__working-hours {
+  display: inline-block;
+  margin: 5px 0 10px;
+}
+.experience__skills {
+  list-style-type: none;
+}
 .education__years > span,
-.Experience__working-hours > span {
+.experience__working-hours > span {
   color: #000;
 
   margin: 0 8px;
 }
-.Experience__working-hours > span {
-  font-size: 25px;
+/* .experience__working-hours > span {
+  font-size: 16px;
+} */
+.experience > li:not(:last-child) {
+  margin-bottom: 30px;
 }
 .education {
   margin: 55px 0 21px;
@@ -144,9 +158,9 @@ a {
 .education__university {
   margin: 21px 0 15px;
 }
-.education > ul > li {
-  /* list-style-type: none; */
-}
+/* .education > ul > li {
+  list-style-type: none;
+} */
 .education__specialty {
   color: #000;
   font-size: 14px;
