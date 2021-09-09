@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   color: #595959;
-  background-color: #1f53a1;
+  /* background-color: #1f53a1; */
   padding: 40px 39px;
 }
 h1,
@@ -28,11 +28,16 @@ a {
   color: #595959;
   text-decoration: none;
 }
+.wrapper-resume {
+  background-color: #1f53a1;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 40px;
+}
 .resume {
   background-color: #ffffff;
   display: flex;
   max-width: 1100px;
-  margin: 0 auto;
 }
 
 .tech-skills > ul > li,
